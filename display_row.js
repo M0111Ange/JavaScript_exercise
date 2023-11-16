@@ -1,9 +1,18 @@
-function displayPattern(b) {
-    for (let i = 0; i < b; i++) {
-        let row = " ".repeat(b - i - 1) + "1";
-        console.log(row);
-    }
+function displayPattern(pattern){
+    for (let i=0; i< pattern; i++){
+        var str = ""
+        for (let j=pattern; j>=0; j--){
+            if (i===j) {
+               str+="1 ";
+            } else {
+                 str+= "  ";
+            }
+        }
+    
+        console.log(str);
+          }   
+          
+          
 }
 
-
-displayPattern(4);
+displayPattern(5);
