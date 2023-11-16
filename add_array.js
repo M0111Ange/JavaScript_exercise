@@ -6,3 +6,4 @@ function sumOfArray(arr){
     console.log (sum)
   }
     sumOfArray([2,4,6,8,10,12]);
+
