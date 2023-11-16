@@ -1,10 +1,6 @@
 //Write a function that calculates the square of a number.
 
-function squareRootOfNumber(number){
-    if(number < 0){
-        return undefined;
-    }else{
-        return Math. sqrt(number);
-    }
+function squareNumber(square){
+    return square * square;
 }
-console.log(squareRootOfNumber(64));
+console.log(squareNumber(9));
