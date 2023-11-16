@@ -15,4 +15,4 @@ function displayPattern(pattern){
           
 }
 
-displayPattern(5);
+displayPattern(4);
